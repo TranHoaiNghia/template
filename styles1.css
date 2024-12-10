@@ -104,15 +104,12 @@ body {
     .container {
         width: 100mm; 
         height: 150mm;
-        /* margin: 0 auto; */
-        /* padding: 10mm;  */
-        /* border: 1px solid #000; */
         box-sizing: border-box;
         page-break-inside: avoid;
     }
 
     .container * {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 1.2;
     }
 
