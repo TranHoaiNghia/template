@@ -102,8 +102,8 @@ body {
     }
 
     .container {
-        width: 100mm; 
-        height: 150mm;
+        width: 120mm;
+        height: 140mm;
         box-sizing: border-box;
         page-break-inside: avoid;
     }
