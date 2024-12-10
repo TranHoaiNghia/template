@@ -1,3 +1,31 @@
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+
+    .container {
+        width: 100mm; /* Chiều rộng 100mm */
+        height: 150mm; /* Chiều cao 150mm */
+        margin: 0 auto;
+        padding: 10mm; /* Khoảng cách nội dung bên trong */
+        border: 1px solid #000;
+        box-sizing: border-box;
+        page-break-inside: avoid;
+    }
+
+    .container * {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+
+    @page {
+        margin: 0; /* Loại bỏ lề mặc định */
+        size: 100mm 150mm; /* Định rõ kích thước giấy in */
+    }
+}
+
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
