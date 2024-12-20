@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
+    -webkit-print-color-adjust: exact;
 }
 
 .container {
@@ -60,8 +61,8 @@ body {
     font-size: 30px;
 }
 
-.header_info h4{
-    font-size: 13.3px;
+.header_info_add{
+    font-size: 15px;
     margin: 10px 0;
     text-align: right;
 }
@@ -86,13 +87,20 @@ body {
     margin-top: 16px;
 }
 
+.finish{
+    height: 4px;
+    width: 340px;
+    background-color: #000;
+    display: inline-block;
+    --webkit-print-color-adjust: exact;
+}
+
 /* xong phần middle */
 
 .con-finish p{
     margin: 10px 0;
 
 }
-
 
 @media print {
     html, body {
